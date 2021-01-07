@@ -163,9 +163,21 @@ a {
   text-decoration: none;
   background-color: transparent;
 }
+
 a:hover {
   color: #e6b301;
   text-decoration: underline;
+}
+
+#milestoneCircle a {
+	color: #ffffff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+#milestoneCircle a:hover {
+  color: #ffffff;
+  text-decoration: bold;
 }
 
 a:not([href]) {
@@ -9891,6 +9903,10 @@ a.text-dark:hover, a.text-dark:focus {
 
 .text-muted {
   color: #6c757d !important;
+}
+
+.text-asterix {
+	color: #fd7e14;
 }
 
 .text-black-50 {
